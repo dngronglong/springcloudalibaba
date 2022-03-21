@@ -1,0 +1,10 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nas.lovelivenxn.com:8848
+        namespace: public

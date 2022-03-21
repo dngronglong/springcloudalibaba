@@ -1,0 +1,10 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nas.lovelivenxn.com:8848
+        namespace: public
